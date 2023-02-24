@@ -305,3 +305,11 @@ body {
     background-color: #08546C;
     margin-top: 30px;
 }
+
+
+.box-con3 {
+    background-color: yellow;
+    width: 100%;
+    display: flex;
+
+}
