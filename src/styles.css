@@ -140,7 +140,7 @@ body {
 
 .rec-2 {
     width: 100%;
-    background-color: #E5E5E5;
+    background-color: white;
     display: flex;
     justify-content: center;
 }
@@ -169,7 +169,7 @@ body {
     color: #08546C;
 }
 
-.mini-boxes {
+.mini-box1 {
     width: 273px;
     height: 251px;
     /* background-color: red; */
@@ -180,15 +180,16 @@ body {
     justify-content: center;
     flex-direction: column;
     box-shadow: 0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198);
+    padding-left: 30px;
 }
 
-.mini-boxes > h4 {
+.mini-box1 > h4 {
     font-size: 24px;
     font-weight: 600;
     color: #0F1221;
 }
 
-.mini-boxes > p {
+.mini-box1 > p {
     font-weight: 400;
     color: #696969;
     line-height: 26px;
@@ -206,12 +207,14 @@ body {
     display: flex;
     flex-direction: row;
     margin-top: 20px;
+    width: 100%;
 }
 
 .sub_text2 {
     width: 569px;
     align-self: flex-start;
     margin-top: 100px;
+    padding-left: 20px;
 }
 
 .sub_text2 > h3 {
@@ -241,7 +244,7 @@ body {
 .box-con2 > div {
     display: flex; 
     flex-basis: calc(50% - 40px);  
-    justify-content: center;
+    /* justify-content: center; */
     flex-direction: column;
     
   }
@@ -252,17 +255,53 @@ body {
     height: 588px;
 }
 .box1 {
-     background-color: red; 
+     /* background-color: red;  */
+     padding-top: 0px;
  }
 
-.box2 { 
-    background-color: orange;
+ .box > img {
+    width: 100%;
+    height: 386px;
  }
 
-.box3 {
-     background-color: purple; 
+ .mini-box2 {
+    height: 162px;
+    width: 426px;
+    /* background-color: red; */
+    padding-top: 20px;
+ }
+
+ .mini-box2 > h5 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #08546C;
+    line-height: 29px;
+ }
+
+.mini-box2 > p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    padding-top: 10px;
+    color: #757575;
 }
 
-.box4 { 
-    background-color: grey;
+.mini-box2 > h6 {
+    font-weight: 500;
+    font-size: 18px;
+    color: #08546C;
+    line-height: 26px;
+    padding-top: 10px;
+}
+
+.box4 > .mini-box2 { 
+    width: 449px;
+}
+
+#sub-rectangle {
+    width: 100%;
+    height: 730px;
+    background-image: url(./images/Rectangle.png);
+    background-color: #08546C;
+    margin-top: 30px;
 }
