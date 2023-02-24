@@ -147,7 +147,7 @@ body {
 
 .container2 {
    width: 80%;
-   /* background-color: yellow; */
+   background-color: yellow;
    display: flex;
    justify-content: center;
    align-items: center;
@@ -304,12 +304,22 @@ body {
     background-image: url(./images/Rectangle.png);
     background-color: #08546C;
     margin-top: 30px;
+    display: flex;
+   align-items: center;
+   flex-direction: column;
+
 }
 
 
+.rec-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .box-con3 {
-    background-color: yellow;
+    background-color: red;
     width: 100%;
     display: flex;
-
+    align-self: center;
 }
