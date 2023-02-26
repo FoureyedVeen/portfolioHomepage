@@ -147,7 +147,7 @@ body {
 
 .container2 {
    width: 80%;
-   background-color: yellow;
+   /* background-color: yellow; */
    display: flex;
    justify-content: center;
    align-items: center;
@@ -331,11 +331,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .box-con3 {
     /* background-color: rgb(38, 0, 255); */
-    width: 80%;
     display: flex;
 }
 
@@ -374,5 +374,55 @@ body {
 
 .sub-rectangle2 {
     width: 100%;
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blog-con {
+    background-color: red;
+    height: 883px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 150px;
+}
+
+.mini-box4 {
+    width: 585px;
+    margin-right: 20px;
+    background-color: green;
+}
+
+.mini-box4 > h4 {
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 45px;
+    color: #08546C;
+    padding-top: 40px;
+}
+
+.mini-box4 > p {
+    line-height: 27px;
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 20px;
+    color: #757575;
+}
+
+.blog-list {
+    list-style: none;
+    display: flex;
+    margin-top: 20px;
+}
+.blog-list > li {
+    padding-left: 20px;
+    color: #757575;
+}
+.mini-box5 {
+    width: 337px;
+    height: 585px;
+    background-color: black;
+    margin-left: 50px;
 }
